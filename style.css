@@ -39,7 +39,7 @@ body{
     top:30%;
     border-radius:5px;
     overflow: hidden;
-    animation: modalShow 0.2s linear;
+    animation: modalShow 0.3s linear;
 }
 .model__header{
     display: flex;
@@ -48,6 +48,9 @@ body{
     padding: 15px;
     background-color: var(--pink-color);
     color:white;
+}
+.model__header i{
+    cursor:pointer;
 }
 
 .modal__body{
@@ -67,7 +70,7 @@ body{
     border:none;
     border-radius: 10px;
     color: white;
-
+    cursor: pointer;
 }
 .hide{
     display:none;
